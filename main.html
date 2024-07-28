@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-gray-800 flex items-center justify-center h-screen">
+    <div class="calculator bg-gray-900 p-6 rounded-lg shadow-lg">
+        <div class="display bg-gray-800 text-right p-4 rounded text-white text-2xl mb-4" id="display">0</div>
+        <div class="grid grid-cols-4 gap-4 ">
+            <button class="button bg-white" data-value="AC">AC</button>
+            <button class="button bg-white" data-value="DE">DE</button>
+            <button class="button bg-white" data-value=".">.</button>
+            <button class="button bg-white" data-value="/">/</button>
+            <button class="button bg-white" data-value="7">7</button>
+            <button class="button bg-white" data-value="8">8</button>
+            <button class="button bg-white" data-value="9">9</button>
+            <button class="button bg-white" data-value="*">*</button>
+            <button class="button bg-white" data-value="4">4</button>
+            <button class="button bg-white" data-value="5">5</button>
+            <button class="button bg-white" data-value="6">6</button>
+            <button class="button bg-white" data-value="-">-</button>
+            <button class="button bg-white" data-value="1">1</button>
+            <button class="button bg-white" data-value="2">2</button>
+            <button class="button bg-white" data-value="3">3</button>
+            <button class="button bg-white" data-value="+">+</button>
+            <button class="button col-span-2 bg-white" data-value="00">00</button>
+            <button class="button bg-white" data-value="0">0</button>
+            <button class="button bg-white" data-value="=">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
